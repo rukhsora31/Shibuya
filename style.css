@@ -294,3 +294,60 @@ body{
         justify-content: center;
     }
 }
+
+.team {
+}
+.container {
+}
+.team__wrapper {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    gap: 50px;
+}
+.team__left {
+
+    h2{
+        font-size: 175px ;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+}
+.team__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.team__card {
+    border: 3px solid black;
+    min-height: 300px;
+    padding: 25px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+
+    h3{
+        color: white;
+        text-transform: uppercase;
+    }
+
+    transition: 0.6s;
+
+    &:hover{
+        background-size: 150%;
+    }
+}
+.tcard-1 {
+    background-image: url(./img/team-1.png);
+}
+.tcard-2 {
+    background-image: url(./img/team-2.png);
+}
+.tcard-3 {
+    background-image: url(./img/team-3.png);
+}
+.tcard-4 {
+    background-image: url(./img/team-4.png);
+}
